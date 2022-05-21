@@ -1,0 +1,1 @@
+every node or group of nodes can have a workspace(s) which is basically a desktop for that node.  

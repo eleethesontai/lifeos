@@ -1,0 +1,8 @@
+all commands should have a npm style domain before the actual command. 
+
+so it should be of the form
+```
+domain command param1, param2, param3, ...
+```
+
+this will enable abstraction by giving domains dedicated routes.  for example a route for finance functions, a route for ui settings, system settings etc.
