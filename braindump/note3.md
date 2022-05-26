@@ -1,1 +1,0 @@
-custom word/wordpedia idea should also be adapted to the #psuedocode custom language
