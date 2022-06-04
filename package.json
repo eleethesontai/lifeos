@@ -1,0 +1,30 @@
+{
+  "name": "seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "nodemon localhost.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eleethesontai/lifeos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eleethesontai/lifeos/issues"
+  },
+  "homepage": "https://github.com/eleethesontai/lifeos#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "uuid": "^8.3.2",
+    "ws": "^8.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Consolish</title>
+        <link rel="stylesheet" href="/consolish.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <a href="/consolish/reset">🏠 Consolish ~ <%= session.id %></a>
+        <br/>
+        <br/>
+        <div id="posts">
+            <% session.posts.forEach(post => { %>
+                <div class="post"><%= post.prompt %></div>
+            <% }) %>
+        </div>
+        <form id="form" action="/consolish/submit" method="post">
+            <label for="prompt">></label>
+            <input type="text" id="prompt" name="prompt" placeholder="type something ..." autocomplete="off">
+        </form>
+        <script src="/consolish.js"></script>
+    </body>
+</html>
